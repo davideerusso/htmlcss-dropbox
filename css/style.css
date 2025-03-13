@@ -45,8 +45,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: white;
 }
 .menu {
@@ -110,16 +110,13 @@ ul {
   flex-basis: 1;
 }
 .col-paragrafo .paragrafo {
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 30px;
 }
 
-.info-menu .button {
-  margin-left: 20px;
-  margin-top: 40px;
-}
+
 .col-paragrafo .button {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .col-immagine {
   flex-grow: 1;
@@ -129,7 +126,7 @@ ul {
 }
 .arrow {
   font-size: 40px;
-  padding-top: 55px;
+  padding-top: 20px;
   display: flex;
   justify-items: start;
 }
@@ -234,7 +231,7 @@ ul {
 }
 .card-titol {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   padding-bottom: 15px;
   padding-top: 20px;
 }
@@ -328,9 +325,25 @@ ul {
   margin-right: 30px;
   
 }
+.text-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.button-border{
+  background-color: white;
+  border: 0.5px solid black;
+font-size: 16px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
 .img-box {
   min-width: 60%;
-  min-height: 350px;
 
   flex-basis: 1;
 }
