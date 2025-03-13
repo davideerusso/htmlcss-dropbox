@@ -45,8 +45,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
   background-color: white;
 }
 .menu {
@@ -193,14 +193,43 @@ ul {
   gap: 2rem;
   padding-top: 50px;
 }
+.card-full {
+  width: calc(100% / 3);
+  flex-grow: 1;
+  /* height: 650px; */
+  display: flex;
+  /* align-items: start; */
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: stretch
+  padding-bottom: 20px;
+  border: 1px solid rgb(194, 194, 194);
+}
+.card-full .paragrafo {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card .paragrafo {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .card {
   width: calc(100% / 3);
   flex-grow: 1;
-  height: 650px;
+  /* height: 650px; */
   display: flex;
   align-items: start;
   justify-content: flex-start;
   flex-direction: column;
+  padding-bottom: 20px;
   border: 1px solid rgb(194, 194, 194);
 }
 .card-titol {
@@ -226,12 +255,13 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
+
 .paragrafo-interno {
   display: inline;
   text-align: left;
-  width: 100%;
+  /* width: 100%; */
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -244,12 +274,13 @@ ul {
 }
 .card-intern .button {
   margin-top: 30px;
+  margin-bottom: 26px;
 }
-.card-full {
-  width: 100%;
-  height: 200px;
-  margin-top: 50px;
+.border-link {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding-bottom: 40px;
 }
+
 .box-center {
   display: flex;
   justify-content: space-between;
@@ -261,6 +292,41 @@ ul {
 .box-center .col-paragrafo {
   /* min-width: 40%; */
   min-height: 350px;
+}
+.fa-ul {
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+.li {
+  padding-top: 10px;
+  display: inline-flexbox;
+}
+.fa-li {
+  /* padding-left: 30px; */
+  color: rgb(4, 118, 218);
+  font-weight: bold;
+}
+
+.foot-card {
+  margin-top: 60px;
+}
+.little-title {
+  font-weight: bold;
+}
+.card-intern-large {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-intern-large .button{
+
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 30px;
+  
 }
 .img-box {
   min-width: 60%;
@@ -277,6 +343,11 @@ ul {
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 150px;
+}
+.text-card{
+  max-width: 70%;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 .cardx6 {
   min-width: calc(100% / 4);
