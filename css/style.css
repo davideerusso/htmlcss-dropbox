@@ -199,8 +199,24 @@ ul {
   height: 650px;
   display: flex;
   align-items: start;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-direction: column;
   border: 1px solid rgb(194, 194, 194);
+}
+.card-titol {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+.card-info {
+  color: grey;
+  font-size: 12px;
 }
 .icon {
   font-size: 14px;
@@ -208,6 +224,26 @@ ul {
 }
 .card-intern {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.paragrafo-interno {
+  display: inline;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.list {
+  padding-top: 20px;
+}
+.card-intern .button {
+  margin-top: 30px;
 }
 .card-full {
   width: 100%;
