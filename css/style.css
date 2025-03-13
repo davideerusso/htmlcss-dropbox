@@ -71,10 +71,12 @@ ul {
   background-color: #035fffff;
   color: white;
   padding: 8px 16px 8px 16px;
-  margin-left: 20px;
 
   font-size: 14px;
   border: none;
+}
+.info-menu .button {
+  margin-left: 20px;
 }
 .slider {
   /* min-height: 600px; */
@@ -107,15 +109,33 @@ ul {
   min-height: 350px;
   flex-basis: 1;
 }
+.col-paragrafo .paragrafo {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.info-menu .button {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.col-paragrafo .button {
+  margin-bottom: 20px;
+}
 .col-immagine {
   flex-grow: 1;
   min-width: 70%;
   /* min-width: 20%; */
   flex-basis: 1;
 }
+.arrow {
+  font-size: 40px;
+  padding-top: 55px;
+  display: flex;
+  justify-items: start;
+}
 .border {
   margin: 100px;
-  border-top: 1px solid grey;
+  border-top: 1px solid rgb(224, 224, 224);
   /* width: 100vw; */
   /* display: flex;
   justify-content: space-between; */
@@ -124,6 +144,21 @@ ul {
 /* main */
 .box-card {
   padding-top: 40px;
+}
+.paragrafo {
+  font-size: 14px;
+}
+.card .paragrafo {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.second-title {
+  font-size: 30px;
+  font-weight: bold;
 }
 .radio-dimension {
   padding-top: 60px;
@@ -162,6 +197,17 @@ ul {
   width: calc(100% / 3);
   flex-grow: 1;
   height: 650px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border: 1px solid rgb(194, 194, 194);
+}
+.icon {
+  font-size: 14px;
+  padding-right: 10px;
+}
+.card-intern {
+  display: flex;
 }
 .card-full {
   width: 100%;
