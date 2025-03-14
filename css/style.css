@@ -106,7 +106,7 @@ ul {
 
 .col-paragrafo {
   min-width: 30%;
-  min-height: 350px;
+  /* min-height: 350px; */
   flex-basis: 1;
 }
 .col-paragrafo .paragrafo {
@@ -289,13 +289,13 @@ ul {
 }
 .box-center .col-paragrafo {
   /* min-width: 40%; */
-  min-height: 350px;
+  /* min-height: 350px; */
 }
 .fa-ul {
   padding-left: 0px;
   padding-bottom: 20px;
 }
-.li {
+.li-card {
   padding-top: 10px;
   display: inline-flexbox;
 }
@@ -304,6 +304,7 @@ ul {
   color: rgb(4, 118, 218);
   font-weight: bold;
   position: static;
+  padding-right: 5px;
 }
 
 .foot-card {
@@ -421,7 +422,7 @@ ul {
 
 .info-foot {
   min-width: calc(100% / 5);
-  min-height: 250px;
+  /* min-height: 250px; */
   flex-grow: 1;
   color: white;
   padding-top: 50px;
